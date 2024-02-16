@@ -18,7 +18,7 @@ var longestPalindrome = function(s) {
       n++;
     }
     if (n-m-1 > res.length) {
-      res = s.slice(m, n);
+      res = s.slice(m+1, n);
     }
   }
   return res;
